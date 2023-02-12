@@ -1,7 +1,6 @@
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
-
+import { useSelector } from "react-redux";
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import LoginPage from "./pages/login";
 import HomePage from "./pages/home";
