@@ -1,5 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+export interface StateType {
+    mode: string,
+    user: any,
+    token: any,
+    posts: any
+}
+
 const initialState = {
     mode: "light",
     user: null,
